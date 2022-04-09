@@ -1,0 +1,516 @@
+[Message:   BepInEx] BepInEx 5.4.19.0 - valheim (11/9/2021 10:28:18 PM)
+[Info   :   BepInEx] Running under Unity v2019.4.31.12409535
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 29 plugins to load
+[Info   :   BepInEx] Loading [PlantEverything 1.9.2]
+[Info   :   BepInEx] Loading [Valheim Configuration Manager 0.5.0]
+[Info   :   BepInEx] Loading [Craft From Containers 2.2.1]
+[Info   :   BepInEx] Loading [Remember IP Address 0.1.0]
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type Console and name InputText and parameters 
+[Warning:  HarmonyX] Unknown patch - Could not find method InputText with 0 parameters in type Console, but it was found in base class of this type Terminal
+[Info   :   BepInEx] Loading [kgladder 0.2.0]
+[Info   :   BepInEx] Loading [UnrestrictedPortals 1.4.2]
+[Message:UnrestrictedPortals] Loading configuration...
+[Message:UnrestrictedPortals] Successfully loaded configuration.
+[Message:UnrestrictedPortals] Loading patches...
+[Message:UnrestrictedPortals] Successfully loaded patches.
+[Info   :   BepInEx] Loading [Jotunn 2.6.2]
+[Info   :    Jotunn] Initializing LocalizationManager
+[Info   :    Jotunn] Initializing CommandManager
+[Info   :    Jotunn] Initializing InputManager
+[Info   :    Jotunn] Initializing SkillManager
+[Info   :    Jotunn] Initializing PrefabManager
+[Info   :    Jotunn] Initializing ItemManager
+[Info   :    Jotunn] Initializing PieceManager
+[Info   :    Jotunn] Initializing CreatureManager
+[Info   :    Jotunn] Initializing ZoneManager
+[Info   :    Jotunn] Initializing MockManager
+[Info   :    Jotunn] Initializing KitbashManager
+[Info   :    Jotunn] Initializing GUIManager
+[Info   :    Jotunn] Initializing KeyHintManager
+[Info   :    Jotunn] Initializing NetworkManager
+[Info   :    Jotunn] Initializing SynchronizationManager
+[Info   :    Jotunn] Initializing RenderManager
+[Info   :    Jotunn] Initializing MinimapManager
+[Info   :    Jotunn] Jötunn v2.6.2 loaded successfully
+[Info   :   BepInEx] Loading [TeleportEverything 1.4.0]
+[Info   :   BepInEx] Loading [SkillInjectorMod 1.1.1]
+[Info   :   BepInEx] Loading [GatheringSkillMod 2.0.2]
+[Info   : Unity Log] Mod Config Enforcer not detected.
+[Error  :   BepInEx] Could not load [GatheringSkillCropReplantCompatibilityMod 1.0.0] because it has missing dependencies: com.github.johndowson.CropReplant
+[Info   :   BepInEx] Loading [Clutter 0.1.2]
+[Info   :   BepInEx] Loading [More Gates 1.0.10]
+[Info   :   BepInEx] Loading [Better Archery 1.7.0]
+[Info   :   BepInEx] Loading [MultiCraft 1.0.0]
+[Info   :   BepInEx] Loading [HeightmapUnlimited 1.3.3]
+[Info   :   BepInEx] Loading [RequipMe 0.1.3]
+[Info   : Unity Log] RequipMe Awake
+[Info   :   BepInEx] Loading [ValheimFaveServers 1.0.1]
+[Info   :ValheimFaveServers] Loaded server from config with data [key: mg name: Nazarick Valheim host: mgin.me ip: ::ffff:158.69.53.177]
+[Info   :   BepInEx] Loading [Quick Stack 0.6.6]
+[Info   :Quick Stack] Initializing Quick Stack.
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.0]
+[Info   :   BepInEx] Loading [Blast Furnace Fix 1.0.0.0]
+[Info   :   BepInEx] Loading [AnyPortal 1.0.4]
+[Info   : Unity Log] AnyPortal loaded succesfully.
+[Info   :   BepInEx] Loading [Project Auga 1.0.9]
+[Info   : Unity Log] 04/08/2022 22:52:36: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/08/2022 22:52:36: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 04/08/2022 22:52:36: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/08/2022 22:52:36: Loaded localization CSV:localization_extra language:English
+
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.14]
+[Info   :   BepInEx] Loading [SailingMapReveal 1.0]
+[Info   :   BepInEx] Loading [BlackMetalBuildPieces 0.0.3]
+[Info   :   BepInEx] Loading [No Rain Damage 1.2.1]
+[Info   :   BepInEx] Loading [Equip Wheel Mod 1.3.6]
+[Info   :EquipWheel] Epicloot Mod installed. Applied compatibility patch.
+[Info   :EquipWheel] EquipWheel Loaded!
+[Info   :   BepInEx] Loading [MassFarming 1.0]
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] ConfigurationManager Searching for vanilla Config Manager.
+[Info   : Unity Log] ConfigurationManager Vanilla Config Manager not found.
+[Info   : Unity Log] 04/08/2022 22:52:38: Starting to load scene:start
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 04/08/2022 22:52:42: Using environment steamid 892970
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Using steam APPID:892970
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Steam initialized, persona:Syh
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Using default prefs
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Valheim version:0.207.20
+
+[Info   :Jotunn.Managers.CommandManager] Adding 1 commands to the Console
+[Info   : Unity Log] 04/08/2022 22:52:42: Render threading mode:MultiThreaded
+
+[Warning: Unity Log] 04/08/2022 22:52:42: Missing audio clip in music respawn
+
+[Info   : Unity Log] 04/08/2022 22:52:42: Checking for installed DLCs
+
+[Info   : Unity Log] 04/08/2022 22:52:42: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
+[Info   : Unity Log] 04/08/2022 22:52:43: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/08/2022 22:52:43: Loaded localization CSV:localization_extra language:English
+
+[Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
+[Info   :Jotunn.Managers.ItemManager] Adding 1 custom items to the ObjectDB
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherQuiver
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ArrowWoodAnywhere
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FireArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_PoisonArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FrostArrowTransform
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+ConfigurationManager.Patches.SetupMenuButton () (at <9edb05592bc445f5bb0c8d2eab8bf234>:0)
+ConfigurationManager.Patches.Start () (at <9edb05592bc445f5bb0c8d2eab8bf234>:0)
+(wrapper dynamic-method) FejdStartup.DMD<FejdStartup::Start>(FejdStartup)
+
+[Info   : Unity Log] 04/08/2022 22:52:43: UI Group status changed Menu = False
+
+[Info   : Unity Log] 04/08/2022 22:52:46: UI Group status changed Menu = True
+
+[Info   : Unity Log] 04/08/2022 22:53:03: FOund selected StartGame
+
+[Info   : Unity Log] 04/08/2022 22:53:03: show character selection
+
+[Info   : Unity Log] 04/08/2022 22:53:05: OnCharacterStart
+
+[Info   :ValheimFaveServers] Saved IP address in patch on set server host
+[Info   : Unity Log] 04/08/2022 22:53:09: Steam initialized, persona:Syh
+
+[Info   : Unity Log] 04/08/2022 22:53:09: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 1 commands to the Console
+[Info   : Unity Log] 04/08/2022 22:53:09: Loading player profile syh
+
+[Info   : Unity Log] 04/08/2022 22:53:09: Zonesystem Awake 1227
+
+[Info   : Unity Log] 04/08/2022 22:53:09: DungeonDB Awake 1227
+
+[Info   : Unity Log] 04/08/2022 22:53:09: Steam initialized, persona:Syh
+
+[Info   :Jotunn.Managers.PrefabManager] Adding 229 custom prefabs to the ZNetScene
+[Info   : Unity Log] [CustomSlotCreator] Created quiver slot for LeatherQuiver.
+[Info   :Jotunn.Managers.ItemManager] Adding 1 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 1 custom recipes to the ObjectDB
+[Info   :Jotunn.Managers.PieceManager] Adding 223 custom pieces to the PieceTables
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherQuiver
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ArrowWoodAnywhere
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FireArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_PoisonArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverArrowTransform
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FrostArrowTransform
+[Info   : Unity Log] 04/08/2022 22:53:10: Audioman already exist, destroying self
+
+[Info   : Unity Log] 04/08/2022 22:53:10: Checking for installed DLCs
+
+[Info   : Unity Log] 04/08/2022 22:53:10: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.NetworkManager] Registering 2 custom RPCs
+[Info   : Unity Log] 04/08/2022 22:53:13: Zonesystem Start 1227
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups from locations_cp1
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Added 1 locations, 0 vegetations, 1 environments, 0 biome env-setups from locations_mountaincaves
+
+[Info   : Unity Log] 04/08/2022 22:53:14: DungeonDB Start 1227
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Connecting to server 158.69.53.177:2456
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Starting to connect to 158.69.53.177:2456
+
+[Error  : Unity Log] Exception: Could not find child objects for KeyHints
+Stack trace:
+Jotunn.Managers.KeyHintManager.GetBaseGameObjects (KeyHints self) (at <d91b98635510448d942d27c616809638>:0)
+Jotunn.Managers.KeyHintManager+Patches.KeyHints_Start (KeyHints __instance) (at <d91b98635510448d942d27c616809638>:0)
+(wrapper dynamic-method) KeyHints.DMD<KeyHints::Start>(KeyHints)
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 04/08/2022 22:53:14: New connection
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Connected
+
+[Info   : Unity Log] 04/08/2022 22:53:14: Got connection SteamID 90157854308932616
+
+[Info   : Unity Log] 04/08/2022 22:53:15: Session auth respons callback
+
+[Info   : Unity Log] 04/08/2022 22:53:15: VERSION check their:0.207.20  mine:0.207.20
+
+[Info   : Unity Log] 04/08/2022 22:53:18: client got keys 6
+
+[Info   : Unity Log] 04/08/2022 22:53:18: client got location icons
+
+[Info   : Unity Log] 04/08/2022 22:53:18: Icons:2
+
+[Info   :Jotunn.Managers.SynchronizationManager+<AdminRPC_OnClientReceive>d__30] Received admin status from server: Admin
+[Info   : Unity Log] 04/08/2022 22:53:26: Unpacking compressed mapdata 33553
+
+[Info   : Unity Log] 04/08/2022 22:53:26: Starting respawn
+
+[Info   : Unity Log] 04/08/2022 22:53:27: tip:$loadscreen_tip10
+
+[Info   : Unity Log] 04/08/2022 22:53:32: Loading dungeon
+
+[Info   : Unity Log] 04/08/2022 22:53:32: Dungeon loaded 10
+
+[Info   : Unity Log] 04/08/2022 22:53:32: Dungeon load time 201.8842 ms
+
+[Info   : Unity Log] 04/08/2022 22:53:34: Spawned after 8.019994
+
+[Info   :EquipWheel] Spawned EquipGui!
+[Info   : Unity Log] 04/08/2022 22:53:34: Minimap: Adding unique location (-58.8, 78.0, -6.4)
+
+[Info   : Unity Log] 04/08/2022 22:53:34: Minimap: Adding unique location (1744.4, 72.7, -570.1)
+
+[Info   : Unity Log] 04/08/2022 22:53:36: Resumed music home at 0
+
+[Info   : Unity Log] 04/08/2022 22:53:38: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:53:38: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:53:38: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:53:44: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:45: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:45: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:46: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:46: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:46: Loading dungeon
+
+[Info   : Unity Log] 04/08/2022 22:53:46: Dungeon loaded 10
+
+[Info   : Unity Log] 04/08/2022 22:53:46: Dungeon load time 11.0112 ms
+
+[Info   : Unity Log] 04/08/2022 22:53:47: Placed mud_road_v2
+
+[Info   : Unity Log] 04/08/2022 22:53:48: Stopped music home at 492038
+
+[Info   : Unity Log] 04/08/2022 22:53:48: Resumed music plains at 0
+
+[Info   : Unity Log] 04/08/2022 22:53:50: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:53:50: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:53:50: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:53:50: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:53:50: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:53:53: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:53:53: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:53:53: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:53:53: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:53:58: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:53:58: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:53:58: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:53:58: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:54:04: Setting saddle:False
+
+[Info   : Unity Log] 04/08/2022 22:54:05: Setting saddle:False
+
+[Info   : Unity Log] 04/08/2022 22:54:06: Setting saddle:False
+
+[Info   : Unity Log] 04/08/2022 22:54:09: Stopped music plains at 956704
+
+[Info   : Unity Log] 04/08/2022 22:54:09: Resumed music plains at 956704
+
+[Info   : Unity Log] 04/08/2022 22:54:14: Stopped music plains at 1172459
+
+[Info   : Unity Log] 04/08/2022 22:54:14: Resumed music home at 492038
+
+[Info   : Unity Log] 04/08/2022 22:54:14: Setting saddle:False
+
+[Info   : Unity Log] 04/08/2022 22:54:17: Stopped music home at 598133
+
+[Info   : Unity Log] 04/08/2022 22:54:17: Resumed music plains at 1172459
+
+[Info   : Unity Log] 04/08/2022 22:54:17: Stopped music plains at 1197856
+
+[Info   : Unity Log] 04/08/2022 22:54:17: Resumed music home at 598133
+
+[Info   : Unity Log] 04/08/2022 22:54:18: Stopped music home at 607877
+
+[Info   : Unity Log] 04/08/2022 22:54:18: Resumed music plains at 1197856
+
+[Info   : Unity Log] 04/08/2022 22:54:19: Stopped music plains at 1265448
+
+[Info   : Unity Log] 04/08/2022 22:54:19: Resumed music home at 607877
+
+[Info   : Unity Log] 04/08/2022 22:54:25: Stopped music home at 882975
+
+[Info   : Unity Log] 04/08/2022 22:54:25: Resumed music home at 882975
+
+[Info   : Unity Log] CraftFromContainers container at (3462.3, 31.0, -460.5) has 20 Wood, taking 1
+[Info   : Unity Log] 04/08/2022 22:54:30: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:30: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:54:30: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:54:54: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:54: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:54:54: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:54:58: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:54:58: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:58: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:58: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:54:58: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:54:59: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:54:59: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:59: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:54:59: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:54:59: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:00: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:00: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:00: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:00: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:00: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:01: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:01: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:01: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:01: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:01: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:02: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:02: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:02: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:02: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:02: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:03: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:03: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:03: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:03: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:03: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:05: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:05: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:05: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:05: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:05: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:06: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:06: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:06: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:06: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:06: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:07: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:07: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:07: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:07: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:07: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:08: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:08: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:08: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:08: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:08: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:12: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:12: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:12: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:12: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:12: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:13: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:13: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:13: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:13: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:13: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:14: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:14: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:14: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:15: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:15: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:15: Player 553563681 wants to open piece_chest(Clone)   im: 553563681
+
+[Info   : Unity Log] 04/08/2022 22:55:15: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:15: Setting selected recipe 0
+
+[Info   : Unity Log] 04/08/2022 22:55:16: UI Group status changed root = True
+
+[Info   : Unity Log] 04/08/2022 22:55:16: UI Group status changed Player = True
+
+[Info   : Unity Log] 04/08/2022 22:55:23: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 04/08/2022 22:55:24: UI Group status changed MenuRoot = False
+
+[Info   : Unity Log] 04/08/2022 22:55:25: Game - OnApplicationQuit
+
+[Info   : Unity Log] 04/08/2022 22:55:25: Shuting down
+
+[Info   : Unity Log] 04/08/2022 22:55:25: Uncompressed size 8395181
+
+[Info   : Unity Log] 04/08/2022 22:55:25: Compressed size 33553
+
+[Info   : Unity Log] 04/08/2022 22:55:26: ZNet Shutdown
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Sending disconnect msg
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Sent to 90157854308932616
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Released session ticket
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Disposing socket
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Closing socket 90157854308932616
+
+[Info   : Unity Log] 04/08/2022 22:55:26:   send queue size:0
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Last socket, unregistering callback
+
+[Info   : Unity Log] 04/08/2022 22:55:26: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Disposing socket
+
+[Info   : Unity Log] 04/08/2022 22:55:26: Last socket, unregistering callback
+
+[Info   : Unity Log] 04/08/2022 22:55:26: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 04/08/2022 22:55:28: ZNet OnDestroy
+
+[Info   : Unity Log] 04/08/2022 22:55:29: Net scene destroyed
+
+[Info   : Unity Log] 04/08/2022 22:55:29: Steam manager on destroy
+
+[Warning: Unity Log] 04/08/2022 22:55:29: Local player destroyed
+

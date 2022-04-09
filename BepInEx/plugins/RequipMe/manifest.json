@@ -1,0 +1,9 @@
+{
+  "name": "RequipMe",
+  "description": "Instantly re-equip from your tombstone!",
+  "version_number": "0.1.3",
+  "website_url": "https://www.nexusmods.com/valheim/mods/1615/",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1600"
+  ]
+}
