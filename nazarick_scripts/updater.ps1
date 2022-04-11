@@ -1,5 +1,6 @@
-# Ensure script is running in script directory
+# Ensure script is running in proper directory
 Set-Location -Path $PSScriptRoot
+Set-Location ..
 
 # Update the game (ensure no user conflicts via git pull)
 Write-Output "Updating Game...`n"
