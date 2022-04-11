@@ -10,8 +10,5 @@ Write-Output "`nFinished update.`n"
 
 # Launch game
 Write-Output "`nLaunching Valheim...`n"
-StartProcess -FilePath "valheim.exe"
+Start-Process -FilePath "valheim.exe"
 Write-Output "`nValheim Launched.`n"
-
-# Keep window open
-Read-Host -Prompt "Press Enter to exit ~"
