@@ -13,6 +13,3 @@ Write-Output "`nFinished update.`n"
 Write-Output "`nLaunching Valheim...`n"
 Start-Process -FilePath "valheim.exe" -ArgumentList "-force-vulkan"
 Write-Output "`nValheim Launched.`n"
-
-# Prevent window closing
-Read-Host -Prompt "Press Enter to exit."
