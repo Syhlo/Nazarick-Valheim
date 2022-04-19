@@ -11,5 +11,5 @@ Write-Output "`nFinished update.`n"
 
 # Launch game
 Write-Output "`nLaunching Valheim...`n"
-Start-Process -FilePath "valheim.exe" -ArgumentList "-force-vulkan"
+Start-Process -FilePath "valheim.exe"
 Write-Output "`nValheim Launched.`n"
