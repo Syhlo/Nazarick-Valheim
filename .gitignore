@@ -1,0 +1,27 @@
+# Ignore everything at first
+**/*
+
+# Whitelist
+!.gitignore
+!BepInEx/
+!BepInEx/*
+!BepInEx/**
+!doorstop_libs/
+!doorstop_libs/*
+!doorstop_libs/**
+!unstripped_corlib/
+!unstripped_corlib/*
+!unstripped_corlib/**
+!nazarick_scripts/
+!nazarick_scripts/*
+!nazarick_scripts/**
+!doorstop_config.ini
+!start_game_bepinex.sh
+!start_server_bepinex.sh
+!winhttp.dll
+
+# Ignore specific files from whitelist
+**/*.dat
+**/*.log
+**/MultiUserChest-log.txt
+BepInEx/cache
