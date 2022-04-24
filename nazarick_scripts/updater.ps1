@@ -9,7 +9,5 @@ git pull
 git stash pop
 Write-Output "`nFinished update.`n"
 
-# Launch game
-Write-Output "`nLaunching Valheim...`n"
-Start-Process -FilePath "valheim.exe"
-Write-Output "`nValheim Launched.`n"
+# Run post update scripts
+& "$PSScriptRoot\post-update.ps1"
