@@ -25,3 +25,4 @@
 **/*.log
 **/MultiUserChest-log.txt
 BepInEx/cache
+BepInEx/Debug
