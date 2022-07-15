@@ -1,3 +1,26 @@
+# Version 0.10.1
+* Added stripping of Semicolons on "additionalText" to prevent CSV errors
+* Added unlimited health to other types of prefabs (Trees, Destructibles)
+* Added back "quick select tool" for direct blueprinting
+
+# Version 0.10.0
+* Split plan and blueprint functionality into two separate items
+* __If you want to use plans, you must craft the new item "Plan Hammer" from your player crafting screen__
+* Reorganized configuration entries for more clarity
+* __Please revise your configuration once after installing this version__
+* Added saving of local scaling into blueprints. Note that the scale is not saved/synced by the vanilla game for most of the prefabs, so an additional mod for piece scaling should be installed.
+* Added saving of item stand and armor stand items. Loadouts only get placed when using "Direct Build".
+* Added the ability to change blueprint categories via the Marketplace GUI
+* Removed the blueprint "Quick Select" tool, use the add/remove/edit selection tools instead
+* Added temporary capturing of blueprints from the "Edit Selection" tool at runtime without saving a file for it (copy+paste)
+* Added deletion of selected pieces from the "Edit Selection" tool
+* Added ability to capture blueprints using the vanilla snap points (can be used in copy+paste)
+* Added ability to "finish" planned pieces without having the needed resources when the "no placement cost" debug option is active
+* Changed building requirements for the plan totem (1x Wood, 1x Grey Dwarf Eye) and skuld crystal (1 x Grey Dwarf Eye)
+* Added rotation to the square shaped marker
+* Added config to set piece health to "unlimited" for direct builds
+* __Check out the README file on github for more in-depth instructions on the new usage: https://github.com/sirskunkalot/PlanBuild/blob/master/README.md__
+
 # Version 0.9.5
 * Fixed placement of non-Piece prefabs
 
