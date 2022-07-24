@@ -4,7 +4,8 @@
 Version 0.10.0 of PlanBuild comes with a big internal code refactor and many changes to the handling of plans and blueprints. Please make sure to check out the documentation below. The biggest changes in a nutshell:
 
 - Instead of switching plan and blueprint mode on the rune, you now have two distinct tools, the __Plan Hammer__ and the __Blueprint Rune__.
-- All of the blueprinting is done via the __Selection__ tools. You can add and remove parts of your buildings to a selection and need to use the __Edit Selection__ tool or the __selection.gui__ console command to save or copy your blueprint.
+- Lots of improvements to the __Selection tools__. You can add and remove parts of your buildings to a selection and need to use the __Edit Selection__ tool or the __selection.gui__ console command to save or copy your blueprint.
+- You can copy+paste blueprints directly without having to save them (clipboard).
 - The configuration was redesigned for more clarity. Please revise your configuration once after installing this version.
 
 # PlanBuild
@@ -172,7 +173,8 @@ It is possible for clients not using PlanBuild to connect to a server using it. 
 Fully compatible with:
 * [Build Camera](https://www.nexusmods.com/valheim/mods/226)﻿
 * [Craft from Containers](https://www.nexusmods.com/valheim/mods/40)﻿
-* [ValheimRAFT](https://www.nexusmods.com/valheim/mods/1136)
+* [ValheimRAFT](https://www.nexusmods.com/valheim/mods/1136) (partial compat, blueprinting does not work)
+* [ComfyGizmo](https://github.com/redseiko/ValheimMods/releases/tag/ComfyGizmo-v1.3.0)
 
 The Hammer's PieceTable is scanned automatically, mods that add Pieces should be compatible. If you find a mod that adds pieces to the Hammer and they don't show up, please post a bug report with a link to the mod or join the [Jötunn Discord](https://discord.gg/DdUt6g7gyA) and ping ```@Jules``` or ```@MarcoPogo```.
 
@@ -199,6 +201,7 @@ A lot aspects of this mod are configurable either through the config file found 
   * __Show the transform bound grid__: Shows a grid around the blueprints' bounds to visualize the blueprints' edges. (default __false__)
   * __Tooltip enabled__: Show a tooltip with a bigger thumbnail for blueprint pieces. (default __true__)
   * __Tooltip Color__: Set the background color for the tooltip on blueprint pieces.
+  * __Undo queue name__: Global name of the blueprint undo queue used for bp.undo and bp.redo commands. Can be set to the same value as other mods' config (if supported) to combine their undo queues. (default __blueprintqueue__)
 * __Directories__
   * __Blueprint search directory__ Base directory to scan (recursively) for blueprints and vbuild files, relative paths are relative to the valheim.exe location (default __.__)
   * __Save directory__: Directory to save blueprint files, relative paths are relative to the valheim.exe location (default __BepInEx/config/PlanBuild/blueprints__)
@@ -232,7 +235,8 @@ PlanBuild adds some new console commands to the game:
 * __bp.pull__ - [blueprint_id] Load a blueprint from the current connected server and add it to your local blueprints
 * __bp.thumbnail__ - [blueprint_id] ([rotation]) Create a new thumbnail for a blueprint from the actual blueprint data, optionally provide additional rotation of the blueprint on the thumbnail
 * __bp.regenthumbnails__ - Create a new thumbnail for all local blueprints
-* __bp.undo__ - Undo your last built blueprint
+* __bp.undo__ - Undo your last rune action (build, delete or terrain)
+* __bp.redo__ - Redo your last undone rune action (build, delete or terrain)
 * __bp.clearclipboard__ - Clear the clipboard category of all saved blueprints
 * __selection.gui__ - Show the selection GUI
 * __selection.clear__ - Clears the current selection
@@ -254,6 +258,8 @@ Blueprint functionality originally created by __[Algorithman](https://github.com
 Blueprint Marketplace GUI created by __[Dreous](https://github.com/imcanida)__
 
 All further coding by __[MarcoPogo](https://github.com/MathiasDecrock)__ & __[Jules](https://github.com/sirskunkalot)__
+
+Special thanks to __[Jere](https://github.com/JereKuusela)__ for exchanging code and ideas
 
 Made with Löve and __[Jötunn](https://github.com/Valheim-Modding/Jotunn)__
 

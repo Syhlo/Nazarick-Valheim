@@ -1,3 +1,12 @@
+# Version 0.10.3
+* Implemented bp.undo and bp.redo console commands for all blueprint and terrain actions (big thx to Jere)
+* Changed offset handling for blueprints so the placement marker stays in place
+* Added compat patches for ComfyGizmo
+
+# Version 0.10.2
+* Fixed Plan Hammer compat with BuildCamera
+* Fixed errors with some blueprints using item/armor stands
+
 # Version 0.10.1
 * Added stripping of Semicolons on "additionalText" to prevent CSV errors
 * Added unlimited health to other types of prefabs (Trees, Destructibles)
